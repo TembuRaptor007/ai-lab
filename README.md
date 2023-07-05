@@ -1,1 +1,0 @@
-# ai-lab-case-study-project

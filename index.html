@@ -163,9 +163,10 @@
 
       try {
         // Send request to ChatGPT API
-        const response = await fetch("https://api.openai.com/v1/chat/completions", {
+        const response = await fetch("https://api.pawan.krd/v1/completions", {
           method: "POST",
           headers: {
+            'Authorization: Bearer pk-PrtXwZOVSwgyxqFfyrhYpdYRaMaWNKUiGVqgKwzmyifebdZG'
             "Content-Type": "application/json"
           },
           body: JSON.stringify(payload)
